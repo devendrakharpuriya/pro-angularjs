@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="demo">
+<head>
+<title>Example</title>
+
+<script src="angular.js"></script>
+<link href="bootstrap.css" rel="stylesheet" />
+
+	<script type="text/javascript">
+        var myApp = angular.module("demo", []);
+
+        myApp.controller("demoCtrl", function ($scope, $http) {
+            $http.get("http://localhost:3000/todo").success(function (data) {
+            	
+            try{
+                var jsonString = angular.toJson(data);
+                              
+                console.log("JSON data from server :"+jsonString);
+                console.table(data,['action','done']);
+
+                //Assigning JSON data to todos list                           
+                $scope.todos = angular.fromJson(jsonString);
+                
+                //Setting the value manually. same script can be run on console to set value.
+                //for any jsonpath watch http://goessner.net/articles/JsonPath/
+                $scope.todos[0].action = "Buy Grains"
+                
+                console.table( $scope.todos,['action','done']);
+                
+            }catch(e)
+            {
+            	 console.table(todos,['action','done']);
+            	console.log("Exception occuerd :"+e);
+            }
+            
+            });
+        });
+    </script>
+    
+</head>
+
+<body ng-controller="demoCtrl">
+	<div class="panel">
+		<h1>To Do</h1>
+		<table class="table">
+			<tr>
+				<td>Action</td>
+				<td>Done</td>
+			</tr>
+			<tr ng-repeat="item in todos">
+				<td>{{item.action}}</td>
+				<td>{{item.done}}</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

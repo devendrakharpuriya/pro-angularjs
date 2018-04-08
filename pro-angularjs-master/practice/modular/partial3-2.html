@@ -1,0 +1,36 @@
+
+<p>Enter Subject Name: <input type = "text" ng-model = "subjectName"></p>
+<table border="0">
+	<thead>
+		<tr>
+			<td>Key</td>
+			<td>Value</td>
+		</tr>
+	</thead>
+	<tr>
+		<td>Name :</td>
+		<td>{{ student.fullName() | uppercase }}</td>
+	</tr>
+	<tr>
+		<td>Fees :</td>
+		<td>{{ student.fees * student.quantity | currency }}</td>
+	</tr>
+
+
+	<tr>
+		<td>Subjects :</td>
+		<td>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Marks</th>
+				</tr>
+				<tr ng-repeat="subject in student.subjects | filter : subjectName | orderBy : 'marks' : false">
+					<td>{{subject.name}}</td>
+					<td>{{subject.marks }}</td>
+				</tr>
+			</table>
+		</td>
+
+	</tr>
+</table>

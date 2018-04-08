@@ -1,0 +1,260 @@
+{
+	"products": [
+		{
+			"category": "Watersports",
+			"description": "A boat for one person",
+			"name": "Kayak",
+			"price": 275,
+			"id": "05af70919155f8fc"
+		},
+		{
+			"category": "Watersports",
+			"description": "Protective and fashionable",
+			"name": "Lifejacket",
+			"price": 48.95,
+			"id": "3d31d81b218c98ef"
+		},
+		{
+			"category": "Soccer",
+			"description": "FIFA-approved size and weight",
+			"name": "Soccer Ball",
+			"price": 19.5,
+			"id": "437615faf1d38815"
+		},
+		{
+			"category": "Soccer",
+			"description": "Give your playing field a professional touch",
+			"name": "Corner Flags",
+			"price": 34.95,
+			"id": "93c9cc08ac2f28d4"
+		},
+		{
+			"category": "Soccer",
+			"description": "Flat-packed 35,000-seat stadium",
+			"name": "Stadium",
+			"price": 79500,
+			"id": "ad4e64b38baa088f"
+		},
+		{
+			"category": "Chess",
+			"description": "Improve your brain efficiency by 75%",
+			"name": "Thinking Cap",
+			"price": 16,
+			"id": "b9e8e55c1ecc0b63"
+		},
+		{
+			"category": "Chess",
+			"description": "Secretly give your opponent a disadvantage",
+			"name": "Unsteady Chair",
+			"price": 29.95,
+			"id": "32c2355f9a617bbd"
+		},
+		{
+			"category": "Chess",
+			"description": "A fun game for the family",
+			"name": "Human Chess Board",
+			"price": 75,
+			"id": "5241512218f73a26"
+		},
+		{
+			"category": "Chess",
+			"description": "Gold-plated, diamond-studded King",
+			"name": "Bling-Bling King",
+			"price": 1200,
+			"id": "59166228d70f8858"
+		},
+		{
+			"category": "Watersports",
+			"description": "A boat for one person",
+			"name": "Kayak",
+			"price": 275,
+			"id": "05af70919155f8fc"
+		},
+		{
+			"category": "Watersports",
+			"description": "Protective and fashionable",
+			"name": "Lifejacket",
+			"price": 48.95,
+			"id": "3d31d81b218c98ef"
+		},
+		{
+			"category": "Soccer",
+			"description": "FIFA-approved size and weight",
+			"name": "Soccer Ball",
+			"price": 19.5,
+			"id": "437615faf1d38815"
+		},
+		{
+			"category": "Soccer",
+			"description": "Give your playing field a professional touch",
+			"name": "Corner Flags",
+			"price": 34.95,
+			"id": "93c9cc08ac2f28d4"
+		},
+		{
+			"category": "Soccer",
+			"description": "Flat-packed 35,000-seat stadium",
+			"name": "Stadium",
+			"price": 79500,
+			"id": "ad4e64b38baa088f"
+		},
+		{
+			"category": "Chess",
+			"description": "Improve your brain efficiency by 75%",
+			"name": "Thinking Cap",
+			"price": 16,
+			"id": "b9e8e55c1ecc0b63"
+		},
+		{
+			"category": "Chess",
+			"description": "Secretly give your opponent a disadvantage",
+			"name": "Unsteady Chair",
+			"price": 29.95,
+			"id": "32c2355f9a617bbd"
+		},
+		{
+			"category": "Chess",
+			"description": "A fun game for the family",
+			"name": "Human Chess Board",
+			"price": 75,
+			"id": "5241512218f73a26"
+		},
+		{
+			"category": "Chess",
+			"description": "Gold-plated, diamond-studded King",
+			"name": "Bling-Bling King",
+			"price": 1200,
+			"id": "59166228d70f8858"
+		}
+	],
+	"employees": [
+		{
+			"id": "1",
+			"name": "Shyam",
+			"email": "shyamjaiswal@gmail.com"
+		},
+		{
+			"id": "2",
+			"name": "Dindayal",
+			"email": "Dindayal@gmail.com"
+		},
+		{
+			"id": "3",
+			"name": "Satyabhama",
+			"email": "Satyabhama@gmail.com"
+		},
+		{
+			"id": "4",
+			"name": "Devendra",
+			"email": "Devendra@gmail.com"
+		},
+		{
+			"id": "5",
+			"name": "Sima",
+			"email": "Sima@gmail.com"
+		},
+		{
+			"id": "6",
+			"name": "Tanu",
+			"email": "Tanu@gmail.com"
+		},
+		{
+			"id": "7",
+			"name": "Chandrabhaga",
+			"email": "Chandrabhaga@gmail.com"
+		},
+		{
+			"id": "8",
+			"name": "Ramchandra",
+			"email": "Ramchandra@gmail.com"
+		},
+		{
+			"id": "9",
+			"name": "Deepak",
+			"email": "Deepak@gmail.com"
+		},
+		{
+			"id": "10",
+			"name": "Payal",
+			"email": "Payal@gmail.com"
+		}
+	],
+	"stocks": [
+		{
+			"id": "1",
+			"name": "First Stock",
+			"price": 100,
+			"previous": 220
+		},
+		{
+			"id": "2",
+			"name": "Second Stock",
+			"price": 140,
+			"previous": 120
+		},
+		{
+			"id": "3",
+			"name": "Third Stock",
+			"price": 110,
+			"previous": 110
+		},
+		{
+			"id": "4",
+			"name": "Fourth Stock",
+			"price": 400,
+			"previous": 420
+		},
+		{
+			"id": "5",
+			"name": "Fifth Stock",
+			"price": 500,
+			"previous": 480
+		}
+	],
+	"todo": [
+		{
+			"action": "Buy Flowers",
+			"done": false
+		},
+		{
+			"action": "Get Shoes",
+			"done": false
+		},
+		{
+			"action": "Collect Tickets",
+			"done": true
+		},
+		{
+			"action": "Call Joe",
+			"done": false
+		}
+	],
+	"countries": [
+		{
+			"locale": "en-US",
+			"name": "United States"
+		},
+		{
+			"locale": "en-GB",
+			"name": "United Kingdom"
+		},
+		{
+			"locale": "en-FR",
+			"name": "France"
+		}
+	],
+	"subjects": [
+		{
+			"name": "Physics",
+			"marks": 70
+		},
+		{
+			"name": "Chemistry",
+			"marks": 80
+		},
+		{
+			"name": "Math",
+			"marks": 65
+		}
+	]
+}

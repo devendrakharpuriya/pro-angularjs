@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Example</title>
+    <script src="angular.js"></script>
+    <script type="text/javascript">
+    var count = 0;
+        function myFunc(name, weather) {
+            console.log("Hello " + name + ".");
+            console.log("It is " + weather + " today");
+            count = count +1;
+            window.alert("Hi "+name + " count : "+count);            
+        };
+
+        myFunc("Adam", "sunny");
+        myFunc("Adam");
+        myFunc("Adam", "sunny","unnecessary argument");
+
+    </script>    
+    
+    <noscript>
+        # Sorry... JavaScript is needed to go ahead !!! <br>
+    </noscript>
+      
+</head>
+<body>
+    This is a simple example
+</body>
+</html>
+
